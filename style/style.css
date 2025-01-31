@@ -1,0 +1,538 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color: #eee;
+    font-family:Cairo , "Poppins" !important;
+}
+ol{
+    list-style: disc !important;
+}
+.landing{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    max-height: 700px !important; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../IMG_20241224_173114_389.png");
+}.landing::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.search-home::placeholder{
+    color: rgb(68, 68, 68);
+    }
+.landing-two{
+    background-image: url("https://shifaegypt.com/public/img/banner/12.jpg");
+    /* padding: 170px; */
+    background-size: cover;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+.landing-two::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.landing-three{
+    background-image: url("https://shifaegypt.com/public/img/banner/7.jpg");
+    /* padding: 170px; */
+    background-size: cover;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+.landing-three::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.landing-four{
+    background-image: url("https://shifaegypt.com/public/img/banner/1.jpg");
+    /* padding: 170px; */
+    background-size: cover;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-four::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}.landing-five{
+    background-image: url("https://shifaegypt.com/public/img/banner/1.jpg");
+    /* padding: 170px; */
+    background-size: cover;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-five::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}.landing-6{
+    background-image: url("../image/img/قسم\ امراض\ الصدر.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-6::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}.landing-7{
+    background-image: url("../image/img/قسم\ جراحة.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-7::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}.landing-8{
+    background-image: url("../image/img/قسم\ الباطنه.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-8::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}.landing-9{
+    background-image: url("../image/img/قسم\ انف\ واذن.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-9::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}.landing-10{
+    background-image: url("../image/img/قسم\ جراحه\ مخ.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-10::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}.landing-11{
+    background-image: url("../image/img/قسم\ جراحه\ عامة.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-11::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}.landing-12{
+    background-image: url("../image/img/قسم\ نسا\ وتوليد.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-12::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}.landing-13{
+    background-image: url("../image/img/قسم\ الرمد\ .png");
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-13::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}.landing-14{
+    background-image: url("../image/img/قسم\ جراحة\ العظام.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-14::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}.landing-15{
+    background-image: url("../image/img/قسم\ امراض\ جلدية.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-15::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}.landing-16{
+    background-image: url("../image/img/قسم\ اواعيه\ دوامية.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-16::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}.landing-17{
+    background-image: url("../image/img/امراض\ الاورام.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-17::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}.landing-18{
+    background-image: url("../image/img/قسم\ الاسنان.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-18::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}.landing-19{
+    background-image: url("../image/img/قسم\ مسالك\ بولية.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-19::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}.landing-20{
+    background-image: url("../image/img/قسم\ المناعه.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-20::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.landing-about{
+    background-image: url("../IMG_20241224_173114_389.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-about::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}.landing-mission{
+    background-image: url("../IMG_20241224_173114_389.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 148px 0;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}.landing-mission::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.overlay::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.534);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.radius{
+    border-radius: 5px;
+}
+.shadow{
+        background: #fff;
+        margin-bottom: 30px;
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.)
+}
+.card-a{
+    overflow: hidden;
+}
+.card-a:hover .image{
+    scale: 1.1;
+}
+.card-a:hover .single{
+    background-color: #2f7141;
+    color: white;
+}
+.single{
+    transition: 0.5s;
+}
+.image{
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+.radius-md{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.card-shadow{
+    box-shadow: 0px 5px 20px black;
+}
+.learn_more{
+    transition: 0.5s;
+}
+.learn_more:hover{
+    color: #2f7141;
+    font-size: 18px;
+}
+.autoplay {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .slider-item {
+    padding: 20px;
+    background-color: #2f7141;
+    color: white;
+    margin-right: 20px;
+    border-radius: 8px;
+  }
+  .emergency_bg_1{
+    z-index: 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://shifaegypt.com/public/img/banner/emergency-1.png");
+  }
+  .emergency_bg_1::before{
+    position: absolute;
+    content: "";
+    background-color: #2f7141;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+  }
+  .emergency_bg_2{
+    z-index: 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://shifaegypt.com/public/img/banner/emergency-2.png");
+  }  .emergency_bg_2::before{
+    position: absolute;
+    content: "";
+    background-color: #2f7141;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+  }
+  .shadowBox{
+    border-radius: 20px;
+    box-shadow: -1px -1px 23px -9px black;
+  }.fet-icon{
+    display: flex;
+    width: 56px;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    background: #D2EAFF;
+  }.fet-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+  }.fet-text h3{
+    margin: 0;
+    color: #101828;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.2px;
+  }
+.dropdown-transition {
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transform: translateY(-10px);
+}
+#dropdownMenu{
+    background-color: #ffffff !important;
+}
+.dropdown-show {
+  opacity: 1;
+  transform: translateY(0);
+}.rounded-25{
+    border-radius: 25px;
+}
