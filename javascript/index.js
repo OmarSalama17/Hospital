@@ -122,9 +122,9 @@ function handleSearch() {
     }
 
     if (foundPage === "sections") {
-        window.location.href = "./HTML/Departments.html";
+        window.location.href = "../HTML/Departments.html";
     } else if (foundPage === "doctors") {
-        window.location.href = "./HTML/ForDoctors.html";
+        window.location.href = "../HTML/ForDoctors.html";
     } else {
         const suggestions = [
             ...keywords.sections,
