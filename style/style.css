@@ -105,9 +105,11 @@ ol{
     width: 100%;
     height: 100%;
     opacity: 1;
-}.landing-6{
-    background-image: url("../image/img/قسم\ امراض\ الصدر.png");
-    background-size: 100% 100%;
+}
+.landing-6{
+    background-image: url("../IMG_20241224_173114_389.png");
+    /* padding: 170px; */
+    background-size: cover;
     background-position: center center;
     padding: 148px 0;
     background-repeat: no-repeat;
@@ -121,178 +123,8 @@ ol{
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 1;
-}.landing-7{
-    background-image: url("../image/img/قسم\ جراحة.png");
-    background-size: 100% 100%;
-    background-position: center center;
-    padding: 148px 0;
-    background-repeat: no-repeat;
-    height: 500px;
-    position: relative;
-}.landing-7::before{
-    position: absolute;
-    content: "";
-    background: rgba(0, 0, 0, 0.534);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-}.landing-8{
-    background-image: url("../image/img/قسم\ الباطنه.png");
-    background-size: 100% 100%;
-    background-position: center center;
-    padding: 148px 0;
-    background-repeat: no-repeat;
-    height: 500px;
-    position: relative;
-}.landing-8::before{
-    position: absolute;
-    content: "";
-    background: rgba(0, 0, 0, 0.534);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-}.landing-9{
-    background-image: url("../image/img/قسم\ انف\ واذن.png");
-    background-size: 100% 100%;
-    background-position: center center;
-    padding: 148px 0;
-    background-repeat: no-repeat;
-    height: 500px;
-    position: relative;
-}.landing-9::before{
-    position: absolute;
-    content: "";
-    background: rgba(0, 0, 0, 0.534);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-}.landing-10{
-    background-image: url("../image/img/قسم\ جراحه\ مخ.png");
-    background-size: 100% 100%;
-    background-position: center center;
-    padding: 148px 0;
-    background-repeat: no-repeat;
-    height: 500px;
-    position: relative;
-}.landing-10::before{
-    position: absolute;
-    content: "";
-    background: rgba(0, 0, 0, 0.534);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-}.landing-11{
-    background-image: url("../image/img/قسم\ جراحه\ عامة.png");
-    background-size: 100% 100%;
-    background-position: center center;
-    padding: 148px 0;
-    background-repeat: no-repeat;
-    height: 500px;
-    position: relative;
-}.landing-11::before{
-    position: absolute;
-    content: "";
-    background: rgba(0, 0, 0, 0.534);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-}.landing-12{
-    background-image: url("../image/img/قسم\ نسا\ وتوليد.png");
-    background-size: 100% 100%;
-    background-position: center center;
-    padding: 148px 0;
-    background-repeat: no-repeat;
-    height: 500px;
-    position: relative;
-}.landing-12::before{
-    position: absolute;
-    content: "";
-    background: rgba(0, 0, 0, 0.534);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-}.landing-13{
-    background-image: url("../image/img/قسم\ الرمد\ .png");
-    background-size: 100% 100%;
-    background-position: center center;
-    padding: 148px 0;
-    background-repeat: no-repeat;
-    height: 500px;
-    position: relative;
-}.landing-13::before{
-    position: absolute;
-    content: "";
-    background: rgba(0, 0, 0, 0.534);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-}.landing-14{
-    background-image: url("../image/img/قسم\ جراحة\ العظام.png");
-    background-size: 100% 100%;
-    background-position: center center;
-    padding: 148px 0;
-    background-repeat: no-repeat;
-    height: 500px;
-    position: relative;
-}.landing-14::before{
-    position: absolute;
-    content: "";
-    background: rgba(0, 0, 0, 0.534);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-}.landing-15{
-    background-image: url("../image/img/قسم\ امراض\ جلدية.png");
-    background-size: 100% 100%;
-    background-position: center center;
-    padding: 148px 0;
-    background-repeat: no-repeat;
-    height: 500px;
-    position: relative;
-}.landing-15::before{
-    position: absolute;
-    content: "";
-    background: rgba(0, 0, 0, 0.534);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-}.landing-16{
-    background-image: url("../image/img/قسم\ اواعيه\ دوامية.png");
-    background-size: 100% 100%;
-    background-position: center center;
-    padding: 148px 0;
-    background-repeat: no-repeat;
-    height: 500px;
-    position: relative;
-}.landing-16::before{
-    position: absolute;
-    content: "";
-    background: rgba(0, 0, 0, 0.534);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-}.landing-17{
+    opacity: 1;}
+.landing-17{
     background-image: url("../image/img/امراض\ الاورام.png");
     background-size: 100% 100%;
     background-position: center center;

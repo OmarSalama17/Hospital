@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 <html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
@@ -11,133 +11,79 @@
     <link rel="stylesheet" href="../../style/all.min.css">
 </head>
 <body dir="rtl">
-  <nav class="bg-white border-gray-200 sticky top-[0px] z-20 dark:bg-gray-900">
-    <div class="containerBoot  flex flex-wrap items-center justify-between mx-auto p-3">
-      <a href="../index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="../../logoar.png" class="h-8"  />
-    </a>
-      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-          <span class="sr-only">Open main menu</span>
-          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-          </svg>
-      </button>
-      <div class="hidden w-full lg:block lg:w-auto" id="navbar-default">
-        <ul class="font-medium flex flex-col lg:p-0   lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 ">
-          <li class="!mr-[10px]">
-            <a href="../index.html" class="block py-2 px-2 text-gray-900  rounded hover:bg-gray-100  lg:border-0 " aria-current="page">الصفحة الرئيسية</a>
-          </li>
-          <li class="!mr-[10px]">
-            <a href="../Departments.html" id="hover" class="block justify-center items-center flex py-2 px-2 text-gray-900 rounded hover:bg-gray-100 lg:border-0 ">
-              الأقسام
-              <svg class="w-2.5 h-2.5 mr-[7px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                </svg>
-            </a>
-          </li>
-          <li class="!mr-[10px]">
-            <a href="../ForDoctors.html" class="block py-2 px-2 text-gray-900  rounded hover:bg-gray-100  lg:border-0 ">الاطباء</a>
-          </li>
-          <li class="!mr-[10px]">
-            <a href="../Services.html" class="block py-2 px-2 text-gray-900  rounded hover:bg-gray-100  lg:border-0 ">خدمات اخرى </a>
-          </li>
-          <li class="!mr-[10px]">
-            <a  class="block py-2 px-2 text-gray-900  rounded hover:bg-gray-100  lg:border-0">
-              <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="flex items-center" type="button">من نحن  <svg class="w-2.5 h-2.5 mr-[7px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                </svg>
-                </button>
-            </a>
-          </li>
-          <li class="!mr-[10px]">
-            <a href="../contactUs.html" class="block py-2 px-2 text-gray-900  rounded hover:bg-gray-100  lg:border-0">تواصل معنا</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div id="dropdownHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-      <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
-        <li>
-          <a href="../aboutus.html" class="block text-black px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">من نحن</a>
-        </li>
-        <li>
-          <a href="../missionVission.html" class="block text-black px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">الرسالة والرؤية والقيم</a>
-        </li>
-      </ul>
-  </div>
-  <div id="dropdownMenu" class="hidden absolute shadow-lg rounded-md mt-2 min-w-[160px] z-10">
-    <a href="../PageDepartments/Chest Diseases .html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم الصدر</a>
-    <a href="../PageDepartments/Heart diseases.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم  القلب</a>
-    <a href="../PageDepartments/Internal diseases.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم الباطنه</a>
-    <a href="../PageDepartments/Nose and ear.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم الانف والاذن والحنجرة</a>
-    <a href="../PageDepartments/Neurosurgery.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم جراحه مخ والاعصاب</a>
-    <a href="../PageDepartments/General surgery.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم جراحة عامة</a>
-    <a href="../PageDepartments/Gynecology and Obstetrics.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم نساء وتوليد</a>
-    <a href="../PageDepartments/Eye diseases.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم العيون (الرامد)</a>
-    <a href="../PageDepartments/Orthopedics.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم جراحة العظام</a>
-    <a href="../PageDepartments/Skin diseases.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم الجلدية</a>
-    <a href="../PageDepartments/Vascular surgery.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم جراحه الاواعية دموية</a>
-
-  </div>
-
-  </nav>
-      <div class="landing-14">
-        <div class="containerBoot mx-auto  relative " style="z-index: 1;">
-            <h1 class="text-white font-bold text-[50px]">قسم جراحة العظام</h1>
-            <p class=" text-white">أفضل إستشاريين جراحة العظام في مصر</p>
-        </div>
-      </div>
-      <div class="containerBoot p-5">
-        <h3 class="text-[24px] font-bold">  
-             قدم القسم جميع الخدمات التالية 
-            جراحة العمود الفقري
-            تثبيت الكسور
-            جراحة استبدال مفاصل الحوض والركبة
-            جراحة اليد والاوتار والاعصاب
-            الجراحات الميكروسكوبية
-            جراحة عظام الاطفال
-            جراحة مناظير المفاصل
-            جراحة تطويل الاطراف
-            جراحة علاج الاورام
-            اصابات الملاعب
-            تثبيت جميع كسور الأطراف بواسطة شرائح ومسامبـ
-        </h3>
-      </div>
-
-      <div class="containerBoot">
-          <div class="containerBoot pt-[50px]">
-              <input type="text" id="search-input" placeholder="Search for doctors..." class="mb-[20px] p-[10px] border rounded-md w-full">
-              <h1 class="text-center py-[30px] text-[30px] font-bold">الأطباء في قسم جراحة العظام</h1>
-            <div class="row grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 " id="doctor-cards">
-              <div class=" card-shadow mb-[30px] p-[0] card-a rounded-md card-shadow">
-                <a class="no-underline" href="../Doctors/doc17.html">
-                  <div>
-                    <div class="image mb-[15px]">
-                      <img src="../../image/doctors/doctor 17.png" class="w-[100%] h-[273px]" alt="Ahmed Khalifa Nafaa" title="Ahmed Khalifa Nafaa">
-                    </div>
-                    <div class="single py-[15px] text-center">
-                      <h3 class="text-[20px] mb-[5px] doctor-name">عمر ناجي</h3>
-                      <span>استشاري جراحة العظام</span>
-                    </div>
-                  </div>
+    <nav class="bg-white border-gray-200 sticky top-[0px] z-20 dark:bg-gray-900">
+        <div class="containerBoot  flex flex-wrap items-center justify-between mx-auto p-3">
+          <a href="./index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="../../logoar.png" class="h-8"  />
+        </a>
+          <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+          <div class="hidden w-full lg:block lg:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col lg:p-0   lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 ">
+              <li class="!mr-[10px]">
+                <a href="./index.html" class="block py-2 px-2 text-gray-900  rounded hover:bg-gray-100  lg:border-0 " aria-current="page">الصفحة الرئيسية</a>
+              </li>
+              <li class="!mr-[10px]">
+                <a href="./Departments.html" id="hover" class="block justify-center items-center flex py-2 px-2 text-gray-900 rounded hover:bg-gray-100 lg:border-0 ">
+                  الأقسام
+                  <svg class="w-2.5 h-2.5 mr-[7px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                    </svg>
                 </a>
-              </div>
-              <div class=" card-shadow mb-[30px] p-[0] card-a rounded-md card-shadow">
-                <a class="no-underline" href="../Doctors/doc18.html">
-                  <div>
-                    <div class="image mb-[15px]">
-                      <img src="../../image/doctors/doctor 18.png" class="w-[100%] h-[273px]" alt="Ahmed Khalifa Nafaa" title="Ahmed Khalifa Nafaa">
-                    </div>
-                    <div class="single py-[15px] text-center">
-                      <h3 class="text-[20px] mb-[5px] doctor-name">محمد العطار</h3>
-                      <span>استشاري جراحة العظام</span>
-                    </div>
-                  </div>
+              </li>
+              <li class="!mr-[10px]">
+                <a href="./ForDoctors.html" class="block py-2 px-2 text-gray-900  rounded hover:bg-gray-100  lg:border-0 ">الاطباء</a>
+              </li>
+              <li class="!mr-[10px]">
+                <a href="./Services.html" class="block py-2 px-2 text-gray-900  rounded hover:bg-gray-100  lg:border-0 ">خدمات اخرى </a>
+              </li>
+              <li class="!mr-[10px]">
+                <a  class="block py-2 px-2 text-gray-900  rounded hover:bg-gray-100  lg:border-0">
+                  <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="flex items-center" type="button">من نحن  <svg class="w-2.5 h-2.5 mr-[7px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                    </svg>
+                    </button>
                 </a>
-              </div>
-            </div>
+              </li>
+              <li class="!mr-[10px]">
+                <a href="./contactUs.html" class="block py-2 px-2 text-gray-900  rounded hover:bg-gray-100  lg:border-0">تواصل معنا</a>
+              </li>
+            </ul>
           </div>
+        </div>
+        <div id="dropdownHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+          <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+            <li>
+              <a href="./aboutus.html" class="block text-black px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">من نحن</a>
+            </li>
+            <li>
+              <a href="./missionVission.html" class="block text-black px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">الرسالة والرؤية والقيم</a>
+            </li>
+          </ul>
       </div>
+      <div id="dropdownMenu" class="hidden absolute shadow-lg rounded-md mt-2 min-w-[160px] z-10">
+        <a href="details.html?id=1" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم الصدر</a>
+        <a href="details.html?id=2" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم  القلب</a>
+        <a href="details.html?id=3" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم الباطنه</a>
+        <a href="details.html?id=4" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم الانف والاذن والحنجرة</a>
+        <a href="details.html?id=5" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم جراحه مخ والاعصاب</a>
+        <a href="details.html?id=6" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم جراحة عامة</a>
+        <a href="details.html?id=7" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم نساء وتوليد</a>
+        <a href="details.html?id=8" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم العيون (الرامد)</a>
+        <a href="details.html?id=9" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم جراحة العظام</a>
+        <a href="details.html?id=10" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم الجلدية</a>
+        <a href="details.html?id=11" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">قسم جراحه الاواعية دموية</a>
+      </div>
+      </nav>
+      <div class="containerBoot p-5" id="description">
+      </div>
+    <div id="product-details" class="containerBoot my-[50px]">
+      </div>
+      
       <footer>
         <footer class="w-full bg-[#1f1f1f] text-white">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -230,34 +176,9 @@
             </div>
         </footer>
     </footer>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const hover = document.getElementById("hover");
-        const dropdownMenu = document.getElementById("dropdownMenu");
-        hover.addEventListener("mouseenter", () => {
-          dropdownMenu.classList.remove("hidden"); 
-          const rect = hover.getBoundingClientRect(); 
-          dropdownMenu.style.top = `${rect.bottom}px`; 
-          dropdownMenu.style.left = `440px`;
-        });
-        hover.addEventListener("mouseleave", () => {
-          setTimeout(() => {
-            if (!dropdownMenu.matches(":hover")) { 
-              dropdownMenu.classList.add("hidden");
-            }
-          }, 100); 
-        });
-        dropdownMenu.addEventListener("mouseleave", () => {
-          dropdownMenu.classList.add("hidden"); 
-        });
-        dropdownMenu.addEventListener("mouseenter", () => {
-          dropdownMenu.classList.remove("hidden"); 
-        });
-      });
-    </script>
-    <script src="../../javascript/doctors.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@1.5.1/dist/flowbite.min.js"></script>
-    <script src="../../bootstrap.bundle.min.js"></script>
-    <script src="../../javascript/all.min.js"></script>
+      <script src="../javascript/doctorsdetails.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/flowbite@1.5.1/dist/flowbite.min.js"></script>
+          <script src="../bootstrap.bundle.min.js"></script>
+          <script src="../javascript/all.min.js"></script>
 </body>
 </html>
